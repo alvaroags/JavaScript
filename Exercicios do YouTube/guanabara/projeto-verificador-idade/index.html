@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div id="envio">
+            <p>Ano de Nascimento: <input type="number" id="ano"></p>
+            <p>Sexo:
+                <input type="radio" id="mas" name="radiosex" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" id="fem" name="radiosex">
+                <label for="fem">Feminino</label>
+            </p>
+            <p><input type="button" value="ENVIAR" onclick="verificar()" style="margin-left: 0px;"></p>
+        </div>
+        <div id="resultado">
+            <p style="text-align: justify;">Preencha os dados acima para ver o resultado!</p>
+            <img id="foto">
+        </div>
+    </section>
+    <footer>@AlvindosCodigos</footer>
+    <script src="script.js"></script>
+</body>
+</html>
