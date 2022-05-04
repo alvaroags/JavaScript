@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+</head>
+<body>
+    <h1>Teste de atividade</h1>
+    <p id="teste"></p>
+    <input type="button" value="enviar" onclick="teste()">
+    <script>
+        function teste(){
+            paragrafo = document.getElementById('teste')
+            a = 1
+            while(a<6){
+                paragrafo.innerText = `teste ${a}`
+                a++
+            }
+        }
+    </script>
+</body>
+</html>
